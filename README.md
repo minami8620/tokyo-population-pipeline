@@ -2,13 +2,16 @@
 
 [![CI](https://github.com/minami8620/tokyo-population-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/minami8620/tokyo-population-pipeline/actions/workflows/ci.yml)
 [![Monthly update](https://github.com/minami8620/tokyo-population-pipeline/actions/workflows/update.yml/badge.svg)](https://github.com/minami8620/tokyo-population-pipeline/actions/workflows/update.yml)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tokyo-population-pipeline-rag7aenbspocf4sjobc3ut.streamlit.app/)
 
 An automated ETL pipeline that turns the Tokyo Metropolitan Government's monthly
 population estimates (東京都の人口（推計）) into clean, validated, analysis-ready
 tables, with SQL views and a dashboard on top. It updates itself every week via
 GitHub Actions.
 
-![Dashboard](docs/dashboard.png)
+**Live dashboard: <https://tokyo-population-pipeline-rag7aenbspocf4sjobc3ut.streamlit.app/>**
+
+[![Dashboard](docs/dashboard.png)](https://tokyo-population-pipeline-rag7aenbspocf4sjobc3ut.streamlit.app/)
 
 ## What it does
 
