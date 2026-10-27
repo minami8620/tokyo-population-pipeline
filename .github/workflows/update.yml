@@ -20,6 +20,7 @@ jobs:
       - uses: astral-sh/setup-uv@v6
         with:
           python-version: "3.12"
+          activate-environment: true
       - run: uv pip install -e .
       - run: tokyo-pop update
       - name: Commit new releases
